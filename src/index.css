@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   PRINCE LIMOUSINE ERP - BRIGHT, COLORFUL THEME SUITE
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+  --theme-accent: #f59e0b;
+  --theme-accent-hover: #d97706;
+  --theme-accent-light: #fef3c7;
+  --theme-accent-text: #b45309;
+}
+
+[data-theme="bright"],
+[data-theme="gold"] {
+  --theme-accent: #f59e0b;
+  --theme-accent-hover: #d97706;
+  --theme-accent-light: #fef3c7;
+  --theme-accent-text: #b45309;
+}
+
+[data-theme="emerald"] {
+  --theme-accent: #10b981;
+  --theme-accent-hover: #059669;
+  --theme-accent-light: #d1fae5;
+  --theme-accent-text: #047857;
+}
+
+[data-theme="azure"] {
+  --theme-accent: #2563eb;
+  --theme-accent-hover: #1d4ed8;
+  --theme-accent-light: #dbeafe;
+  --theme-accent-text: #1e40af;
+}
+
+[data-theme="coral"] {
+  --theme-accent: #f43f5e;
+  --theme-accent-hover: #e11d48;
+  --theme-accent-light: #ffe4e6;
+  --theme-accent-text: #be123c;
+}
+
+/* Base Light Body & Canvas */
+html.bright,
+html.bright body {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+}
+
+/* Surfaces and Cards in Bright Mode */
+html.bright .bg-\[\#070A13\] {
+  background-color: #f1f5f9 !important;
+}
+
+html.bright .bg-\[\#080C15\],
+html.bright .bg-\[\#080C16\],
+html.bright .bg-\[\#090D18\],
+html.bright .bg-\[\#0A0E1A\],
+html.bright .bg-\[\#0A0E1A\]\/90,
+html.bright .bg-\[\#0B0F1C\],
+html.bright .bg-\[\#0C1222\],
+html.bright .bg-\[\#0C111F\],
+html.bright .bg-\[\#0B101E\] {
+  background-color: #ffffff !important;
+}
+
+/* Slate dark containers -> Clean bright white cards */
+html.bright .bg-slate-900,
+html.bright .bg-slate-950,
+html.bright .bg-slate-900\/40,
+html.bright .bg-slate-900\/50,
+html.bright .bg-slate-900\/60,
+html.bright .bg-slate-900\/70,
+html.bright .bg-slate-900\/80,
+html.bright .bg-slate-900\/90 {
+  background-color: #ffffff !important;
+}
+
+/* Slate 800 subtle elements -> Light grey surfaces */
+html.bright .bg-slate-800,
+html.bright .bg-slate-800\/40,
+html.bright .bg-slate-800\/50,
+html.bright .bg-slate-800\/60,
+html.bright .bg-slate-800\/80 {
+  background-color: #f8fafc !important;
+}
+
+/* Clean, crisp Borders in Bright Mode */
+html.bright .border-slate-800,
+html.bright .border-slate-800\/60,
+html.bright .border-slate-800\/80,
+html.bright .border-slate-800\/90,
+html.bright .border-slate-700,
+html.bright .border-slate-700\/60,
+html.bright .border-slate-700\/80 {
+  border-color: #e2e8f0 !important;
+}
+
+/* Typography Overrides for Crisp High Contrast */
+html.bright .text-white:not(button *):not(button):not(.text-white-force) {
+  color: #0f172a !important;
+}
+
+html.bright .text-slate-100:not(button *):not(button),
+html.bright .text-slate-200:not(button *):not(button) {
+  color: #1e293b !important;
+}
+
+html.bright .text-slate-300:not(button *):not(button) {
+  color: #334155 !important;
+}
+
+html.bright .text-slate-400:not(button *):not(button) {
+  color: #64748b !important;
+}
+
+/* Input Fields & Textareas in Bright Mode */
+html.bright input:not([type="checkbox"]):not([type="radio"]),
+html.bright select,
+html.bright textarea {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+}
+
+html.bright input::placeholder,
+html.bright textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Tables in Bright Mode */
+html.bright table thead {
+  background-color: #f8fafc !important;
+  border-bottom: 2px solid #e2e8f0 !important;
+}
+
+html.bright table thead th {
+  color: #475569 !important;
+}
+
+html.bright table tbody tr:hover {
+  background-color: #f8fafc !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}

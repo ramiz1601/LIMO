@@ -1,0 +1,6 @@
+{
+  "name": "Prince Limousine ERP",
+  "description": "Prince Limousine & FleetFlow SaaS ERP - Multi-Tenant Fleet Operations, Driver 15-Day Payment Cycles, Mileage Checkpoints, WPS Payroll & Cloud Billing Management",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
